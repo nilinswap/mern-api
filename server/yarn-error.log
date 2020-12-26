@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/Cellar/node/15.4.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add eslint-config-airbnb eslint@^3.9.1 eslint-plugin-jsx-a11y@^2.2.3 eslint-plugin-import@^2.1.0 eslint-plugin
+
+PATH: 
+  /Users/swapnil.sharma/.nix-profile/bin:/Users/swapnil/apache-maven-3.6.3/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/qt/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libxml2/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/expat/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/node@8/bin:/Users/swapnil.sharma/.local/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin:/Users/swapnil.sharma/Library/Android/sdk/platform-tools:/Users/swapnil.sharma/Library/Android/sdk/emulator:/usr/local/opt/node@8/bin:/usr/local/Cellar/pyenv-virtualenv/HEAD-294f64f/shims:/Users/swapnil.sharma/.pyenv/shims:/root/.cargo/bin:/usr/local/go/bin:/root/.pyenv/bin:/Users/swapnil.sharma/.nix-profile/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/swapnil.sharma/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/swapnil/forgit/test/load_test_shit/node_modules/.bin/:/usr/local/munki:/Users/swapnil.sharma/.nix-profile/bin:/acko/vendor/bin:/acko/bin:/acko/node_modules/.bin:/acko/src/realm/node_modules/.bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eslint-plugin: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1295:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+     "name": "server",
+     "version": "1.0.0",
+     "private": true,
+     "scripts": {
+     "start": "node -r esm app.js",
+     "dev": "nodemon -r esm app.js"
+   }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
